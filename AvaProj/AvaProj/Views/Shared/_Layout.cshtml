@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,44 +8,181 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/AvaProj.styles.css" asp-append-version="true" />
+    <style>
+        :root {
+            /* Novas cores em tons de verde */
+            --anhembi-primary: #2E8B57; /* Verde mar */
+            --anhembi-secondary: #006400; /* Verde escuro */
+            --anhembi-accent: #3CB371; /* Verde médio mar */
+            --anhembi-light: #F5F5F5; /* Branco gelo */
+            --anhembi-dark: #004d00; /* Verde muito escuro */
+            --anhembi-link: #2E8B57; /* Verde mar para links */
+            --anhembi-link-hover: #1D5D38; /* Verde mar escuro para hover */
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--anhembi-light);
+        }
+
+        .navbar {
+            background-color: white !important;
+            border-bottom: 4px solid var(--anhembi-primary) !important;
+        }
+
+        .navbar-brand {
+            color: var(--anhembi-secondary) !important;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .nav-link {
+            color: var(--anhembi-secondary) !important;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+            .nav-link:hover {
+                color: var(--anhembi-primary) !important;
+            }
+
+        .nav-item {
+            margin-right: 8px;
+        }
+
+        .btn-primary {
+            background-color: var(--anhembi-primary);
+            border-color: var(--anhembi-primary);
+        }
+
+            .btn-primary:hover {
+                background-color: var(--anhembi-link-hover);
+                border-color: var(--anhembi-link-hover);
+            }
+
+        .btn-logout {
+            background-color: var(--anhembi-secondary);
+            color: white;
+            border: none;
+        }
+
+            .btn-logout:hover {
+                background-color: var(--anhembi-dark);
+                color: white;
+            }
+
+        footer {
+            background-color: var(--anhembi-secondary);
+            color: white !important;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+            footer a {
+                color: var(--anhembi-light) !important;
+            }
+
+                footer a:hover {
+                    color: white !important;
+                    text-decoration: underline;
+                }
+
+        .container {
+            padding: 2rem 1rem;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: var(--anhembi-secondary);
+        }
+
+        a {
+            color: var(--anhembi-link);
+        }
+
+            a:hover {
+                color: var(--anhembi-link-hover);
+            }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            white-space: nowrap;
+            line-height: 60px;
+            background-color: var(--anhembi-secondary) !important;
+            color: white !important;
+            border-top: none !important;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">AvaProj</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    AvaProj
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Avaliacao" asp-action="Index">Avaliações</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Disciplina" asp-action="Index">Disciplina</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="DisciplinaOfertada" asp-action="Index">Disciplina Ofertada</a>
-                        </li> 
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Matricula" asp-action="Index">Criar Matricula</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Professor" asp-action="Index">Cadastrar Professor</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Registrar um novo usuário</a>
-                        </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
 
+                            @if (User.IsInRole("Aluno"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Avaliacao" asp-action="Index">Avaliações</a>
+                                </li>
+                            }
+
+                            @if (User.IsInRole("Professor"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Dashboard" asp-action="Index">Dashboard</a>
+                                </li>
+                            }
+
+                            @if (User.IsInRole("Administrador"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Disciplina" asp-action="Index">Disciplina</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="DisciplinaOfertada" asp-action="Index">Disciplina Ofertada</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Matricula" asp-action="Index">Criar Matrícula</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Professor" asp-action="Index">Cadastrar Professor</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Register">Registrar Usuário</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a>
+                                </li>
+                            }
+
+                            <li class="nav-item ms-auto">
+                                <a class="nav-link btn btn-logout rounded-pill px-3" asp-area="" asp-controller="Account" asp-action="Logout">Sair</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Login">Entrar</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
@@ -56,10 +193,9 @@
             @RenderBody()
         </main>
     </div>
-
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2025 - AvaProj - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2025 - AvaProj | Anhembi Morumbi
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

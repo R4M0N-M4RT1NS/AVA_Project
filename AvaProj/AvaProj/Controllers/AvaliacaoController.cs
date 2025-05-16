@@ -92,8 +92,6 @@ namespace AvaProj.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(AvaliacaoViewModel model)
         {
-            if (!ModelState.IsValid)
-                return View(model);
 
             var avaliacao = new Avaliacao
             {
