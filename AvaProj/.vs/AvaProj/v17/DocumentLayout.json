@@ -3,6 +3,37 @@
   "WorkspaceRootPath": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|c:\\users\\user0743\\source\\repos\\ava_project\\avaproj\\avaproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|solutionrelative:avaproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.Design.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|c:\\users\\user0743\\source\\repos\\ava_project\\avaproj\\avaproj\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|solutionrelative:avaproj\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|c:\\users\\user0743\\source\\repos\\ava_project\\avaproj\\avaproj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|solutionrelative:avaproj\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|c:\\users\\user0743\\source\\repos\\ava_project\\avaproj\\avaproj\\controllers\\disciplinaofertadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|solutionrelative:avaproj\\controllers\\disciplinaofertadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|c:\\users\\user0743\\source\\repos\\ava_project\\avaproj\\avaproj\\controllers\\disciplinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|solutionrelative:avaproj\\controllers\\disciplinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|c:\\users\\user0743\\source\\repos\\ava_project\\avaproj\\avaproj\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|solutionrelative:avaproj\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|c:\\users\\user0743\\source\\repos\\ava_project\\avaproj\\avaproj\\controllers\\avaliacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|solutionrelative:avaproj\\controllers\\avaliacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|c:\\users\\user0743\\source\\repos\\ava_project\\avaproj\\avaproj\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|solutionrelative:avaproj\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -31,12 +62,116 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Program.cs",
+              "RelativeDocumentMoniker": "AvaProj\\Program.cs",
+              "ToolTip": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Program.cs",
+              "RelativeToolTip": "AvaProj\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T14:45:25.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProfessorController.cs",
+              "DocumentMoniker": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\ProfessorController.cs",
+              "RelativeDocumentMoniker": "AvaProj\\Controllers\\ProfessorController.cs",
+              "ToolTip": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\ProfessorController.cs",
+              "RelativeToolTip": "AvaProj\\Controllers\\ProfessorController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T14:45:19.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AvaProj\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AvaProj\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T14:45:18.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DisciplinaOfertadaController.cs",
+              "DocumentMoniker": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\DisciplinaOfertadaController.cs",
+              "RelativeDocumentMoniker": "AvaProj\\Controllers\\DisciplinaOfertadaController.cs",
+              "ToolTip": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\DisciplinaOfertadaController.cs",
+              "RelativeToolTip": "AvaProj\\Controllers\\DisciplinaOfertadaController.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T14:45:13.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DisciplinaController.cs",
+              "DocumentMoniker": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\DisciplinaController.cs",
+              "RelativeDocumentMoniker": "AvaProj\\Controllers\\DisciplinaController.cs",
+              "ToolTip": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\DisciplinaController.cs",
+              "RelativeToolTip": "AvaProj\\Controllers\\DisciplinaController.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T14:45:08.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "AvaProj\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "AvaProj\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T14:45:05.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AvaliacaoController.cs",
+              "DocumentMoniker": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\AvaliacaoController.cs",
+              "RelativeDocumentMoniker": "AvaProj\\Controllers\\AvaliacaoController.cs",
+              "ToolTip": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\AvaliacaoController.cs",
+              "RelativeToolTip": "AvaProj\\Controllers\\AvaliacaoController.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAnwFYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T14:42:37.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.NET.Sdk.StaticWebAssets.Design.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.Design.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.Design.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.Design.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.Design.targets",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-16T14:42:23.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "AvaProj\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\AccountController.cs",
               "RelativeToolTip": "AvaProj\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T14:34:48.387Z",
               "EditorCaption": ""

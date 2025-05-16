@@ -1,13 +1,16 @@
 ﻿using AvaProj.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AvaProj.Data
-{
-    public class ApplicationDbContext : DbContext
-    {
+namespace AvaProj.Data {
+    public class ApplicationDbContext : DbContext {
+        private DbContext dbContext;
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options)
-        {
+        : base(options) {
+        }
+
+        public ApplicationDbContext(DbContext dbContext) {
+            this.dbContext = dbContext;
         }
 
         public DbSet<Usuario> Usuarios { get; set; }

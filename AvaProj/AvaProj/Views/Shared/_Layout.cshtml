@@ -128,6 +128,7 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+<<<<<<< HEAD
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
@@ -183,6 +184,36 @@
                                 <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Login">Entrar</a>
                             </li>
                         }
+=======
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Avaliacao" asp-action="Index">Avaliações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Disciplina" asp-action="Index">Disciplina</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="DisciplinaOfertada" asp-action="Index">Disciplina Ofertada</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Matricula" asp-action="Index">Criar Matricula</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Professor" asp-action="Index">Cadastrar Professor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Registrar um novo usuário</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Dashboard" asp-action="Index">Dashboard</a>
+                        </li>
+>>>>>>> origin/release/1.6
                     </ul>
                 </div>
             </div>
