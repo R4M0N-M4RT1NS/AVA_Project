@@ -1,0 +1,135 @@
+﻿@model List<AvaProj.Models.Dashboard>
+
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var labels = JSON.parse('@Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.Labels))');
+        var dadosPorDisciplina = JSON.parse('@Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.DadosPorDisciplina))');
+
+        const ctx = document.getElementById('graficoMediaPorDia').getContext('2d');
+                const chart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: Object.keys(dadosPorDisciplina).map(function (disciplina, index) {
+                    const colors = [
+                        'rgba(75, 192, 192, 1)', // Verde
+                        'rgba(255, 159, 64, 1)', // Laranja
+                        'rgba(153, 102, 255, 1)' // Roxo
+                    ];
+                    const backgroundColors = [
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(255, 159, 64, 0.2)',
+                        'rgba(153, 102, 255, 0.2)'
+                    ];
+
+                    return {
+                        label: disciplina,
+                        data: dadosPorDisciplina[disciplina],
+                        backgroundColor: backgroundColors[index % backgroundColors.length],
+                        borderColor: colors[index % colors.length],
+                        pointBackgroundColor: colors[index % colors.length],
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: colors[index % colors.length],
+                        borderWidth: 3,
+                        fill: true,
+                        tension: 0.4,
+                        pointRadius: 5,
+                        pointHoverRadius: 7
+                    };
+                })
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        labels: {
+                            color: '#333',
+                            font: {
+                                size: 14,
+                                weight: 'bold'
+                            }
+                        }
+                    },
+                    tooltip: {
+                        enabled: true,
+                        backgroundColor: '#000',
+                        titleFont: { weight: 'bold' },
+                        bodyFont: { size: 13 },
+                        callbacks: {
+                            label: function (context) {
+                                return `Média: ${context.parsed.y.toFixed(2)}`;
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 10,
+                        ticks: {
+                            stepSize: 1,
+                            color: '#333'
+                        },
+                        title: {
+                            display: true,
+                            text: 'Nota',
+                            font: {
+                                size: 14
+                            }
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            color: '#333',
+                            maxRotation: 45,
+                            minRotation: 45
+                        },
+                        title: {
+                            display: true,
+                            text: 'Data',
+                            font: {
+                                size: 14
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+}
+
+
+<h2>Avaliações</h2>
+
+<p><strong>Média Total:</strong> @ViewBag.MediaTotal.ToString("0.00")</p>
+
+<h3>Média Diária da Matéria: @ViewBag.NomeDisciplina</h3>
+
+<canvas id="graficoMediaPorDia" width="800" height="400"></canvas>
+
+<h3 class="mt-5">Detalhes das Avaliações</h3>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Data</th>
+            <th>Comentário</th>
+            <th>Nota</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.AvaliacoesDetalhadas) {
+            <tr>
+                <td>@Convert.ToDateTime(item.Data).ToString("dd/MM/yyyy")</td>
+                <td>@item.Comentario</td>
+                <td>@item.Nota.ToString("0.0")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

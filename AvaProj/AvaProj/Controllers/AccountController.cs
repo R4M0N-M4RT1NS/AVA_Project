@@ -114,7 +114,7 @@ public class AccountController : Controller
                 return RedirectToAction("Index", "Avaliacao");
 
             case "Professor":
-                return RedirectToAction("Dashboard", "Professor");
+                return RedirectToAction("Index", "Home");
 
             case "Administrador":
                 return RedirectToAction("Index", "Home");
