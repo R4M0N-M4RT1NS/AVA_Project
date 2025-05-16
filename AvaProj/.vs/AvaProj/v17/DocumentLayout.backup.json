@@ -1,27 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User0743\\source\\repos\\AVA_Project\\.gitignore.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|c:\\users\\user0743\\source\\repos\\ava_project\\avaproj\\avaproj\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|solutionrelative:avaproj\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|c:\\users\\user0743\\source\\repos\\ava_project\\avaproj\\avaproj\\controllers\\avaliacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|solutionrelative:avaproj\\controllers\\avaliacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|c:\\users\\user0743\\source\\repos\\ava_project\\avaproj\\avaproj\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|solutionrelative:avaproj\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|c:\\users\\user0743\\source\\repos\\ava_project\\avaproj\\avaproj\\controllers\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC5842A4-1296-44E2-B79A-EC0252863F8A}|AvaProj\\AvaProj.csproj|solutionrelative:avaproj\\controllers\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -29,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,70 +20,8 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": ".gitignore.txt",
-              "DocumentMoniker": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\.gitignore.txt",
-              "RelativeDocumentMoniker": "..\\.gitignore.txt",
-              "ToolTip": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\.gitignore.txt",
-              "RelativeToolTip": "..\\.gitignore.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-16T14:27:42.726Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AvaProj\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AvaProj\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-16T13:00:58.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "AvaProj\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "AvaProj\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAcwH0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T12:56:47.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AvaliacaoController.cs",
-              "DocumentMoniker": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\AvaliacaoController.cs",
-              "RelativeDocumentMoniker": "AvaProj\\Controllers\\AvaliacaoController.cs",
-              "ToolTip": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\AvaliacaoController.cs",
-              "RelativeToolTip": "AvaProj\\Controllers\\AvaliacaoController.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAYwF0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T12:56:47.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MatriculaController.cs",
-              "DocumentMoniker": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\MatriculaController.cs",
-              "RelativeDocumentMoniker": "AvaProj\\Controllers\\MatriculaController.cs",
-              "ToolTip": "C:\\Users\\User0743\\source\\repos\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\MatriculaController.cs",
-              "RelativeToolTip": "AvaProj\\Controllers\\MatriculaController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T12:50:52.047Z"
             }
           ]
         }
