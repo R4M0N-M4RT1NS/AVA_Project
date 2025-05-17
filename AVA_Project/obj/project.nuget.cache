@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5+JSDl4qeLA=",
+  "dgSpecHash": "CppmDCP2AHQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\AVA_Project.csproj",
+  "projectFilePath": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AVA_Project\\AVA_Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ramon\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ramon\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

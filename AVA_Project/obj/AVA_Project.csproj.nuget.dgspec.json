@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\AVA_Project.csproj": {}
+    "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AVA_Project\\AVA_Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\AVA_Project.csproj": {
+    "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AVA_Project\\AVA_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\AVA_Project.csproj",
+        "projectUniqueName": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AVA_Project\\AVA_Project.csproj",
         "projectName": "AVA_Project",
-        "projectPath": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\AVA_Project.csproj",
+        "projectPath": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AVA_Project\\AVA_Project.csproj",
         "packagesPath": "C:\\Users\\ramon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\obj\\",
+        "outputPath": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AVA_Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
