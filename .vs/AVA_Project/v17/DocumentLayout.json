@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\Models\\Avaliacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvaProj\\AvaProj\\Models\\Avaliacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\AvaliacaoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvaProj\\AvaProj\\Controllers\\AvaliacaoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\Models\\DisciplinaOfertada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvaProj\\AvaProj\\Models\\DisciplinaOfertada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvaProj\\AvaProj\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\Models\\Disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AvaProj\\AvaProj\\Models\\Disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AvaliacaoController.cs",
+              "DocumentMoniker": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\AvaliacaoController.cs",
+              "RelativeDocumentMoniker": "AvaProj\\AvaProj\\Controllers\\AvaliacaoController.cs",
+              "ToolTip": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\Controllers\\AvaliacaoController.cs",
+              "RelativeToolTip": "AvaProj\\AvaProj\\Controllers\\AvaliacaoController.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:39:58.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DisciplinaOfertada.cs",
+              "DocumentMoniker": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\Models\\DisciplinaOfertada.cs",
+              "RelativeDocumentMoniker": "AvaProj\\AvaProj\\Models\\DisciplinaOfertada.cs",
+              "ToolTip": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\Models\\DisciplinaOfertada.cs",
+              "RelativeToolTip": "AvaProj\\AvaProj\\Models\\DisciplinaOfertada.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:39:39.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "AvaProj\\AvaProj\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "AvaProj\\AvaProj\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:39:37.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Disciplina.cs",
+              "DocumentMoniker": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\Models\\Disciplina.cs",
+              "RelativeDocumentMoniker": "AvaProj\\AvaProj\\Models\\Disciplina.cs",
+              "ToolTip": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\Models\\Disciplina.cs",
+              "RelativeToolTip": "AvaProj\\AvaProj\\Models\\Disciplina.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:39:34.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Avaliacao.cs",
+              "DocumentMoniker": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\Models\\Avaliacao.cs",
+              "RelativeDocumentMoniker": "AvaProj\\AvaProj\\Models\\Avaliacao.cs",
+              "ToolTip": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\Models\\Avaliacao.cs",
+              "RelativeToolTip": "AvaProj\\AvaProj\\Models\\Avaliacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:39:27.543Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

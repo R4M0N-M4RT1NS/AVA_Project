@@ -1,0 +1,39 @@
+﻿@model IEnumerable<AvaProj.Models.DisciplinaOfertada>
+
+@{
+    ViewData["Title"] = "Disciplinas Ofertadas";
+}
+
+<h1 class="mb-3">Disciplinas Ofertadas</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Nova Oferta</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Disciplina</th>
+            <th>Professor</th>
+            <th>Ano</th>
+            <th>Semestre</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Disciplina?.Nome</td>
+                <td>@item.Professor?.Nome</td>
+                <td>@item.Ano</td>
+                <td>@item.Semestre</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Detalhes</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

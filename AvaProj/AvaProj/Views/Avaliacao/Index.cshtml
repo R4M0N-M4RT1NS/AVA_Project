@@ -1,0 +1,30 @@
+﻿@model IEnumerable<AvaProj.Models.Matricula>
+
+@{
+    ViewData["Title"] = "Minhas Disciplinas para Avaliação";
+}
+
+<h1>Disciplinas para Avaliação</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Disciplina</th>
+            <th>Professor</th>
+            <th>Ação</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.DisciplinaOfertada.Disciplina.Nome</td>
+                <td>@item.DisciplinaOfertada.Professor.Nome</td>
+                <td>
+                    <a asp-action="Create" asp-route-matriculaId="@item.Id" class="btn btn-primary">Avaliar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
