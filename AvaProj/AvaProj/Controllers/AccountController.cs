@@ -111,7 +111,7 @@ public class AccountController : Controller
         switch (usuario.Papel)
         {
             case "Aluno":
-                return RedirectToAction("Index", "Avaliacao");
+                return RedirectToAction("Index", "Home");
 
             case "Professor":
                 return RedirectToAction("Index", "Home");
@@ -127,6 +127,6 @@ public class AccountController : Controller
     public async Task<IActionResult> Logout()
     {
         await HttpContext.SignOutAsync();
-        return RedirectToAction("Index");
+        return RedirectToAction("Login", "Account");
     }
 }

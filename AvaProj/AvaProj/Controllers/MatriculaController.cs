@@ -1,15 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using AvaProj.Data;
+using AvaProj.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using AvaProj.Data;
-using AvaProj.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace AvaProj.Controllers
 {
+    [Authorize(Roles = "Administrador")]
     public class MatriculaController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -37,7 +39,8 @@ namespace AvaProj.Controllers
             var matricula = await _context.Matriculas
                 .Include(m => m.DisciplinaOfertada)
                 .Include(m => m.Usuario)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .Where(m => m.Usuario.Papel == "Aluno") // Filtra apenas alunos
+                .FirstOrDefaultAsync(m => m.Id == id && m.Usuario.Papel == "Aluno");
             if (matricula == null)
             {
                 return NotFound();
@@ -49,8 +52,10 @@ namespace AvaProj.Controllers
         // GET: Matricula/Create
         public IActionResult Create()
         {
-            ViewData["DisciplinaOfertadaId"] = new SelectList(_context.DisciplinasOfertadas, "Id", "Id");
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Id");
+            ViewBag.DisciplinaOfertadaId = new SelectList(_context.DisciplinasOfertadas, "Id", "Id");
+            ViewBag.UsuarioId = new SelectList(_context.Usuarios.Where(u => u.Papel == "Aluno"), "Id", "Id");
+
+
             return View();
         }
 
@@ -67,8 +72,8 @@ namespace AvaProj.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["DisciplinaOfertadaId"] = new SelectList(_context.DisciplinasOfertadas, "Id", "Id", matricula.DisciplinaOfertadaId);
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Id", matricula.UsuarioId);
+            ViewBag.DisciplinaOfertadaId = new SelectList(_context.DisciplinasOfertadas, "Id", "Id", matricula.DisciplinaOfertadaId);
+            ViewBag.UsuarioId = new SelectList(_context.Usuarios.Where(u => u.Papel == "Aluno"), "Id", "Id", matricula.UsuarioId);
             return View(matricula);
         }
 
@@ -85,8 +90,8 @@ namespace AvaProj.Controllers
             {
                 return NotFound();
             }
-            ViewData["DisciplinaOfertadaId"] = new SelectList(_context.DisciplinasOfertadas, "Id", "Id", matricula.DisciplinaOfertadaId);
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Id", matricula.UsuarioId);
+            ViewBag.DisciplinaOfertadaId = new SelectList(_context.DisciplinasOfertadas, "Id", "Id", matricula.DisciplinaOfertadaId);
+            ViewBag.UsuarioId = new SelectList(_context.Usuarios.Where(u => u.Papel == "Aluno"), "Id", "Id", matricula.UsuarioId);
             return View(matricula);
         }
 
@@ -122,8 +127,8 @@ namespace AvaProj.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["DisciplinaOfertadaId"] = new SelectList(_context.DisciplinasOfertadas, "Id", "Id", matricula.DisciplinaOfertadaId);
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "Id", matricula.UsuarioId);
+            ViewBag.DisciplinaOfertadaId = new SelectList(_context.DisciplinasOfertadas, "Id", "Id", matricula.DisciplinaOfertadaId);
+            ViewBag.UsuarioId = new SelectList(_context.Usuarios.Where(u => u.Papel == "Aluno"), "Id", "Id", matricula.UsuarioId);
             return View(matricula);
         }
 

@@ -1,5 +1,10 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
+    ""
+  ],
+  "SelectedNode": "\\AvaProj.sln",
+=======
     "",
     "\\AvaProj",
     "\\AvaProj\\AvaProj",
@@ -8,5 +13,6 @@
     "\\AvaProj\\AvaProj\\Models"
   ],
   "SelectedNode": "\\AvaProj\\AvaProj\\Models\\Avaliacao.cs",
+>>>>>>> origin/release/1.6
   "PreviewInSolutionExplorer": false
 }

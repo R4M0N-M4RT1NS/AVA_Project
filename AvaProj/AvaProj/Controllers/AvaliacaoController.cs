@@ -86,6 +86,7 @@ namespace AvaProj.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(AvaliacaoViewModel model){
+
             var avaliacao = new Avaliacao
             {
                 MatriculaId = model.MatriculaId,

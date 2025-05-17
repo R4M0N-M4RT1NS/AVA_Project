@@ -8042,23 +8042,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ramon\\.nuget\\packages\\": {},
+    "C:\\Users\\User0743\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\AvaProj.csproj",
+      "projectUniqueName": "C:\\Users\\User0743\\Source\\Repos\\AVA_Project\\AvaProj\\AvaProj\\AvaProj.csproj",
       "projectName": "AvaProj",
-      "projectPath": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\AvaProj.csproj",
-      "packagesPath": "C:\\Users\\ramon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AvaProj\\AvaProj\\obj\\",
+      "projectPath": "C:\\Users\\User0743\\Source\\Repos\\AVA_Project\\AvaProj\\AvaProj\\AvaProj.csproj",
+      "packagesPath": "C:\\Users\\User0743\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User0743\\Source\\Repos\\AVA_Project\\AvaProj\\AvaProj\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ramon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User0743\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8086,7 +8086,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -8144,8 +8144,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\User0743\\Source\\Repos\\AVA_Project\\AvaProj\\AvaProj\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
