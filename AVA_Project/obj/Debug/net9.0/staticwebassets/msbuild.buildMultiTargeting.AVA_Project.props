@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AVA_Project.props" />
+</Project>
