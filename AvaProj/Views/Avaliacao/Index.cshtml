@@ -1,0 +1,88 @@
+﻿@model IEnumerable<AvaProj.Models.Matricula>
+@{
+    ViewData["Title"] = "Avaliação de Disciplinas";
+    Layout = "_Layout";
+}
+<style>
+    .avaliacao-container {
+        padding: 20px;
+        max-width: 1000px;
+        margin: 20px auto;
+    }
+
+    .avaliacao-page-title {
+        color: #1a724a;
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .avaliacao-divider {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 30px;
+    }
+
+    .avaliacao-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    .avaliacao-table th,
+    .avaliacao-table td {
+        padding: 15px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    .avaliacao-table th {
+        background-color: #f8f8f8;
+        font-weight: bold;
+    }
+
+    .btn-avaliar {
+        background-color: white;
+        border: 1px solid #ccc;
+        color: #1a724a;
+        padding: 8px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+    }
+</style>
+
+@if (!Model.Any())
+{
+    <div class="text-center" >
+        <h2 style="color:dimgray">Nenhuma disciplina disponível para avaliação.</h2>
+    </div>
+}
+else
+{
+    <div class="avaliacao-container">
+        <h2 class="avaliacao-page-title">AVALIAÇÃO DE DISCIPLINAS</h2>
+        <div class="avaliacao-divider"></div>
+        <table class="avaliacao-table">
+            <thead>
+                <tr>
+                    <th>Disciplina</th>
+                    <th>Professor</th>
+                    <th>Avaliação</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.DisciplinaOfertada.Disciplina.Nome</td>
+                        <td>Prof. @item.DisciplinaOfertada.Professor.Nome</td>
+                        <td>
+                            <a asp-action="Create" asp-route-matriculaId="@item.Id" class="btn-avaliar">Avaliar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
