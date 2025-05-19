@@ -1,58 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\",
+  "WorkspaceRootPath": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\onedrive\\documents\\asp_net\\projetos separados\\ava_project\\ava_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\source\\repos\\r4m0n-m4rt1ns\\ava_project\\ava_project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\source\\repos\\r4m0n-m4rt1ns\\ava_project\\ava_project\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\source\\repos\\r4m0n-m4rt1ns\\ava_project\\ava_project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\source\\repos\\r4m0n-m4rt1ns\\ava_project\\ava_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\onedrive\\documents\\asp_net\\projetos separados\\ava_project\\ava_project\\migrations\\20250508153952_inicial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\migrations\\20250508153952_inicial.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\onedrive\\documents\\asp_net\\projetos separados\\ava_project\\ava_project\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\onedrive\\documents\\asp_net\\projetos separados\\ava_project\\ava_project\\migrations\\20250508153952_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\migrations\\20250508153952_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\onedrive\\documents\\asp_net\\projetos separados\\ava_project\\ava_project\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\onedrive\\documents\\asp_net\\projetos separados\\ava_project\\ava_project\\controllers\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\controllers\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\onedrive\\documents\\asp_net\\projetos separados\\ava_project\\ava_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\onedrive\\documents\\asp_net\\projetos separados\\ava_project\\ava_project\\controllers\\disciplinaofertadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\controllers\\disciplinaofertadacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\onedrive\\documents\\asp_net\\projetos separados\\ava_project\\ava_project\\controllers\\disciplinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\controllers\\disciplinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\onedrive\\documents\\asp_net\\projetos separados\\ava_project\\ava_project\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\onedrive\\documents\\asp_net\\projetos separados\\ava_project\\ava_project\\controllers\\avaliacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\controllers\\avaliacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\onedrive\\documents\\asp_net\\projetos separados\\ava_project\\ava_project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|c:\\users\\ramon\\onedrive\\documents\\asp_net\\projetos separados\\ava_project\\ava_project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{887C53EA-AD3C-40A5-B95C-FBF352C3A9C4}|AVA_Project\\AVA_Project.csproj|solutionrelative:ava_project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,162 +38,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AVA_Project\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "AVA_Project\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAKEAAAAAAAAAAAAAAK0AAAAuAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AVA_Project\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "AVA_Project\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AVA_Project\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "AVA_Project\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAJQAAAAAAAAAAADwv7MAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-17T14:42:15.034Z",
+              "WhenOpened": "2025-05-18T14:59:29.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AVA_Project\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "AVA_Project\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AVA_Project\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "AVA_Project\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAADwvzgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T14:54:27.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "AVA_Project\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "AVA_Project\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAawB4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:37:05.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20250508153952_Inicial.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Migrations\\20250508153952_Inicial.Designer.cs",
-              "RelativeDocumentMoniker": "AVA_Project\\Migrations\\20250508153952_Inicial.Designer.cs",
-              "ToolTip": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Migrations\\20250508153952_Inicial.Designer.cs",
-              "RelativeToolTip": "AVA_Project\\Migrations\\20250508153952_Inicial.Designer.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAASwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:27:35.536Z",
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AVA_Project\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "AVA_Project\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AVA_Project\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "AVA_Project\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwIcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-18T14:33:03.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20250508153952_Inicial.cs",
-              "DocumentMoniker": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Migrations\\20250508153952_Inicial.cs",
-              "RelativeDocumentMoniker": "AVA_Project\\Migrations\\20250508153952_Inicial.cs",
-              "ToolTip": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Migrations\\20250508153952_Inicial.cs",
-              "RelativeToolTip": "AVA_Project\\Migrations\\20250508153952_Inicial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:27:13.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProfessorController.cs",
-              "DocumentMoniker": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\ProfessorController.cs",
-              "RelativeDocumentMoniker": "AVA_Project\\Controllers\\ProfessorController.cs",
-              "ToolTip": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\ProfessorController.cs",
-              "RelativeToolTip": "AVA_Project\\Controllers\\ProfessorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:26:48.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MatriculaController.cs",
-              "DocumentMoniker": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\MatriculaController.cs",
-              "RelativeDocumentMoniker": "AVA_Project\\Controllers\\MatriculaController.cs",
-              "ToolTip": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\MatriculaController.cs",
-              "RelativeToolTip": "AVA_Project\\Controllers\\MatriculaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:26:44.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DisciplinaOfertadaController.cs",
-              "DocumentMoniker": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\DisciplinaOfertadaController.cs",
-              "RelativeDocumentMoniker": "AVA_Project\\Controllers\\DisciplinaOfertadaController.cs",
-              "ToolTip": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\DisciplinaOfertadaController.cs",
-              "RelativeToolTip": "AVA_Project\\Controllers\\DisciplinaOfertadaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:26:39.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DisciplinaController.cs",
-              "DocumentMoniker": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\DisciplinaController.cs",
-              "RelativeDocumentMoniker": "AVA_Project\\Controllers\\DisciplinaController.cs",
-              "ToolTip": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\DisciplinaController.cs",
-              "RelativeToolTip": "AVA_Project\\Controllers\\DisciplinaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:26:37.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "AVA_Project\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "AVA_Project\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:26:34.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AvaliacaoController.cs",
-              "DocumentMoniker": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\AvaliacaoController.cs",
-              "RelativeDocumentMoniker": "AVA_Project\\Controllers\\AvaliacaoController.cs",
-              "ToolTip": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\AvaliacaoController.cs",
-              "RelativeToolTip": "AVA_Project\\Controllers\\AvaliacaoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:26:29.388Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "AVA_Project\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "AVA_Project\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:25:44.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "AVA_Project\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "AVA_Project\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T14:17:59.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "AVA_Project\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\ramon\\OneDrive\\Documents\\ASP_NET\\Projetos separados\\AVA_Project\\AVA_Project\\Properties\\launchSettings.json",
-              "RelativeToolTip": "AVA_Project\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-17T14:17:42.618Z"
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AVA_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AVA_Project\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ramon\\source\\repos\\R4M0N-M4RT1NS\\AVA_Project\\AVA_Project\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AVA_Project\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADsAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T14:19:15.719Z"
             }
           ]
         }

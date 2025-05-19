@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AVA_Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca2918aeaa248ee802ab0c1770c0f6113a880f3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1296846efd239464e399f3bbfa082dc14b88f00b")]
 [assembly: System.Reflection.AssemblyProductAttribute("AVA_Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AVA_Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

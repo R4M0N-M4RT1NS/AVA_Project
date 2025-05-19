@@ -1,52 +1,179 @@
 ﻿@model AvaProj.ViewModels.RegisterViewModel
 
 @{
-    ViewData["Title"] = "Registrar";
+    Layout = null; // Não usar o layout principal
 }
 
-<h2>Registrar</h2>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <title>Registrar - AvaProj</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+        }
 
-<form asp-action="Register" method="post">
-    <div class="form-group">
-        <label asp-for="Nome"></label>
-        <input asp-for="Nome" class="form-control" />
-        <span asp-validation-for="Nome" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Email"></label>
-        <input asp-for="Email" class="form-control" />
-        <span asp-validation-for="Email" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Matricula"></label>
-        <input asp-for="Matricula" class="form-control" />
-        <span asp-validation-for="Matricula" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Senha"></label>
-        <input asp-for="Senha" type="password" class="form-control" />
-        <span asp-validation-for="Senha" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="ConfirmacaoSenha"></label>
-        <input asp-for="ConfirmacaoSenha" type="password" class="form-control" />
-        <span asp-validation-for="ConfirmacaoSenha" class="text-danger"></span>
-    </div>
-    <div class="form-group">
-        <label asp-for="Papel"></label>
-        <select asp-for="Papel" class="form-control">
-            <option value="">Selecione um papel</option>
-            <option value="Aluno">Aluno</option>
-            <option value="Professor">Professor</option>
-            <option value="Administrador">Administrador</option>
-        </select>
-        <span asp-validation-for="Papel" class="text-danger"></span>
-    </div>
-    <button type="submit" class="btn btn-primary">Registrar</button>
-</form>
+        .login-page {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            max-height: 100vh;
+            max-width: 100vw;
+        }
 
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        .login-form-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+        }
+
+        .login-box {
+            width: 100%;
+            height: auto;
+            max-width: 400px;
+            padding: 20px;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+            .login-box h2 {
+                color: var(--anhembi-secondary);
+                margin-bottom: 1.5rem;
+                text-align: left;
+            }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-control {
+            width: 100%;
+            border-radius: 8px;
+            padding: 0.75rem;
+            box-sizing: border-box;
+        }
+
+        .btn-register {
+            width: 100%;
+            padding: 0.75rem;
+            border-radius: 8px;
+            background-color: var(--anhembi-primary);
+            color: white;
+            font-weight: bold;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-register:hover {
+                background-color: var(--anhembi-link-hover);
+            }
+
+        .login-image-container {
+            flex: 1;
+            background-color: var(--anhembi-primary);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .login-image-container img {
+                max-width: 100%;
+                max-height: 100%;
+                height: auto;
+            }
+
+        .login-box .text-center {
+            margin-top: 1.5rem;
+        }
+
+        @@media (max-width: 768px) {
+            .login-page {
+                flex-direction: column;
+            }
+
+            .login-image-container {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-page">
+        <div class="login-form-container">
+            <div class="login-box">
+                <h2>Crie sua conta</h2>
+
+                <form asp-action="Register" method="post">
+                    <div class="form-group">
+                        <label asp-for="Nome">Nome</label>
+                        <input asp-for="Nome" class="form-control" />
+                        <span asp-validation-for="Nome" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Email">E-mail</label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Matricula">Matrícula</label>
+                        <input asp-for="Matricula" class="form-control" />
+                        <span asp-validation-for="Matricula" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Senha">Senha</label>
+                        <input asp-for="Senha" type="password" class="form-control" />
+                        <span asp-validation-for="Senha" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="ConfirmacaoSenha">Confirme a senha</label>
+                        <input asp-for="ConfirmacaoSenha" type="password" class="form-control" />
+                        <span asp-validation-for="ConfirmacaoSenha" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Papel">Papel</label>
+                        <select asp-for="Papel" class="form-control">
+                            <option value="">Selecione um papel</option>
+                            <option value="Aluno">Aluno</option>
+                            <option value="Professor">Professor</option>
+                            <option value="Administrador">Administrador</option>
+                        </select>
+                        <span asp-validation-for="Papel" class="text-danger"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-register">Registrar</button>
+                </form>
+
+                <div class="text-center">
+                    <small>Já tem uma conta? <a asp-action="Login">Entrar agora</a></small>
+                </div>
+            </div>
+        </div>
+
+        <div class="login-image-container">
+            <img src="~/img/login-illustration.png" alt="Login Illustration" />
+        </div>
+    </div>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
     }
-}
+</body>
+</html>

@@ -1,0 +1,69 @@
+﻿/*:root {
+    --anhembi-primary: #2E8B57;
+    --anhembi-secondary: #006400;
+    --anhembi-accent: #3CB371;
+    --anhembi-light: #F5F5F5;
+    --anhembi-dark: #004d00;
+    --anhembi-link: #2E8B57;
+    --anhembi-link-hover: #1D5D38;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: var(--anhembi-light);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-page {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    color: var(--anhembi-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: var(--anhembi-primary);
+    border-color: var(--anhembi-primary);
+    color: white;
+    border-radius: 8px;
+    padding: 0.75rem;
+}
+
+    .btn-primary:hover {
+        background-color: var(--anhembi-link-hover);
+        border-color: var(--anhembi-link-hover);
+    }
+
+a {
+    color: var(--anhembi-link);
+    text-decoration: none;
+}
+
+    a:hover {
+        color: var(--anhembi-link-hover);
+        text-decoration: underline;
+    }
+*/
