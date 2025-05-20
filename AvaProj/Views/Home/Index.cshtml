@@ -1,8 +1,472 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Avaliação Institucional - Anhembi Morumbi";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="home-container">
+    <!-- Banner Principal -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h1 class="hero-title">Bem-vindo ao Portal de Avaliação Institucional</h1>
+                    <p class="hero-subtitle">Sua opinião é fundamental para o desenvolvimento contínuo da nossa instituição</p>
+                    <div class="mt-4">
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                            <a href="/Account/Login" class="btn btn-primary btn-lg">Acessar o Sistema</a>
+                        }
+                        else
+                        {
+                            <a href="#quick-actions" class="btn btn-primary btn-lg">Iniciar Avaliação</a>
+                        }
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="https://portal.anhembi.br/wp-content/uploads/2021/12/kisspng-higher-education-student-school-college-pessoa-5b20cdaf629445-1.png" alt="Avaliação Institucional" class="img-fluid rounded shadow-lg hero-image" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards de Acesso Rápido -->
+    <section class="quick-actions py-5" id="quick-actions">
+        <div class="container">
+            <h2 class="section-title text-center mb-4">Acesso Rápido</h2>
+            <div class="row g-4">
+                @if (User.IsInRole("Administrador"))
+                {
+                    <!-- Cards para Administradores -->
+                    <div class="col-md-4">
+                        <div class="card h-100 action-card">
+                            <div class="card-body text-center">
+                                <div class="icon-wrapper mb-3">
+                                    <i class="bi bi-gear-fill"></i>
+                                </div>
+                                <h5 class="card-title">Gestão Acadêmica</h5>
+                                <p class="card-text">Gerencie disciplinas, matrículas e professores da instituição.</p>
+                                <a href="/Disciplina/Index" class="btn btn-outline-primary mt-2">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 action-card">
+                            <div class="card-body text-center">
+                                <div class="icon-wrapper mb-3">
+                                    <i class="bi bi-people-fill"></i>
+                                </div>
+                                <h5 class="card-title">Gestão de Usuários</h5>
+                                <p class="card-text">Cadastre e gerencie perfis de acesso ao sistema.</p>
+                                <a href="/Account/Register" class="btn btn-outline-primary mt-2">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 action-card">
+                            <div class="card-body text-center">
+                                <div class="icon-wrapper mb-3">
+                                    <i class="bi bi-bar-chart-fill"></i>
+                                </div>
+                                <h5 class="card-title">Relatórios</h5>
+                                <p class="card-text">Visualize relatórios e estatísticas das avaliações.</p>
+                                <a href="/Dashboard/Index" class="btn btn-outline-primary mt-2">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+                @if (User.IsInRole("Professor"))
+                {
+                    <!-- Cards para Professores -->
+                    <div class="col-md-4">
+                        <div class="card h-100 action-card">
+                            <div class="card-body text-center">
+                                <div class="icon-wrapper mb-3">
+                                    <i class="bi bi-clipboard-data"></i>
+                                </div>
+                                <h5 class="card-title">Dashboard</h5>
+                                <p class="card-text">Acesse o painel com informações sobre suas disciplinas.</p>
+                                <a href="/Dashboard/Index" class="btn btn-outline-primary mt-2">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 action-card">
+                            <div class="card-body text-center">
+                                <div class="icon-wrapper mb-3">
+                                    <i class="bi bi-journal-text"></i>
+                                </div>
+                                <h5 class="card-title">Disciplinas</h5>
+                                <p class="card-text">Gerencie suas disciplinas e atividades acadêmicas.</p>
+                                <a href="#" class="btn btn-outline-primary mt-2">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 action-card">
+                            <div class="card-body text-center">
+                                <div class="icon-wrapper mb-3">
+                                    <i class="bi bi-graph-up"></i>
+                                </div>
+                                <h5 class="card-title">Feedback</h5>
+                                <p class="card-text">Consulte o feedback recebido nas avaliações institucionais.</p>
+                                <a href="#" class="btn btn-outline-primary mt-2">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+                @if (User.IsInRole("Aluno"))
+                {
+                    <!-- Cards para Alunos -->
+                    <div class="col-md-4">
+                        <div class="card h-100 action-card">
+                            <div class="card-body text-center">
+                                <div class="icon-wrapper mb-3">
+                                    <i class="bi bi-check-square-fill"></i>
+                                </div>
+                                <h5 class="card-title">Avaliações Pendentes</h5>
+                                <p class="card-text">Visualize e responda às avaliações disponíveis.</p>
+                                <a href="/Avaliacao/Index" class="btn btn-outline-primary mt-2">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 action-card">
+                            <div class="card-body text-center">
+                                <div class="icon-wrapper mb-3">
+                                    <i class="bi bi-clock-history"></i>
+                                </div>
+                                <h5 class="card-title">Histórico</h5>
+                                <p class="card-text">Consulte seu histórico de avaliações realizadas.</p>
+                                <a href="#" class="btn btn-outline-primary mt-2">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 action-card">
+                            <div class="card-body text-center">
+                                <div class="icon-wrapper mb-3">
+                                    <i class="bi bi-book"></i>
+                                </div>
+                                <h5 class="card-title">Disciplinas</h5>
+                                <p class="card-text">Visualize informações sobre suas disciplinas atuais.</p>
+                                <a href="#" class="btn btn-outline-primary mt-2">Acessar</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <!-- Cards para Visitantes -->
+                    <div class="col-md-4">
+                        <div class="card h-100 action-card">
+                            <div class="card-body text-center">
+                                <div class="icon-wrapper mb-3">
+                                    <i class="bi bi-door-open-fill"></i>
+                                </div>
+                                <h5 class="card-title">Acesso ao Sistema</h5>
+                                <p class="card-text">Entre com suas credenciais para acessar o sistema.</p>
+                                <a href="/Account/Login" class="btn btn-outline-primary mt-2">Entrar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 action-card">
+                            <div class="card-body text-center">
+                                <div class="icon-wrapper mb-3">
+                                    <i class="bi bi-info-circle-fill"></i>
+                                </div>
+                                <h5 class="card-title">Sobre o Sistema</h5>
+                                <p class="card-text">Conheça mais sobre a avaliação institucional.</p>
+                                <a href="#about-section" class="btn btn-outline-primary mt-2">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 action-card">
+                            <div class="card-body text-center">
+                                <div class="icon-wrapper mb-3">
+                                    <i class="bi bi-question-circle-fill"></i>
+                                </div>
+                                <h5 class="card-title">Suporte</h5>
+                                <p class="card-text">Precisa de ajuda? Entre em contato com nossa equipe.</p>
+                                <a href="#contact-section" class="btn btn-outline-primary mt-2">Contato</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre o Sistema -->
+    <section class="about-section py-5 bg-light" id="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+                    <img src="" alt="Sobre a Avaliação Institucional" class="img-fluid rounded shadow about-image" />
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <h2 class="section-title mb-4">Sobre a Avaliação Institucional</h2>
+                    <p class="section-text">O Sistema de Avaliação Institucional da Anhembi Morumbi foi desenvolvido para promover a melhoria contínua da qualidade acadêmica, proporcionando um canal de comunicação entre alunos, professores e gestores.</p>
+                    <p class="section-text">Através deste sistema, coletamos informações valiosas que nos ajudam a identificar pontos fortes e oportunidades de melhoria em nossos processos acadêmicos.</p>
+                    <div class="d-flex mt-4">
+                        <div class="me-4 stat-box">
+                            <h3 class="stat-number">+500</h3>
+                            <p class="stat-label">Disciplinas Avaliadas</p>
+                        </div>
+                        <div class="me-4 stat-box">
+                            <h3 class="stat-number">+5000</h3>
+                            <p class="stat-label">Alunos Participantes</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3 class="stat-number">+100</h3>
+                            <p class="stat-label">Professores</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Funciona -->
+    <section class="how-it-works py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Como Funciona</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="step-card text-center">
+                        <div class="step-number">1</div>
+                        <div class="step-icon">
+                            <i class="bi bi-person-check-fill"></i>
+                        </div>
+                        <h4 class="step-title">Acesse o Sistema</h4>
+                        <p class="step-description">Faça login com suas credenciais institucionais para acessar as avaliações disponíveis.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-card text-center">
+                        <div class="step-number">2</div>
+                        <div class="step-icon">
+                            <i class="bi bi-clipboard-check"></i>
+                        </div>
+                        <h4 class="step-title">Responda as Avaliações</h4>
+                        <p class="step-description">Avalie as disciplinas e professores de acordo com os critérios estabelecidos.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="step-card text-center">
+                        <div class="step-number">3</div>
+                        <div class="step-icon">
+                            <i class="bi bi-bar-chart-line-fill"></i>
+                        </div>
+                        <h4 class="step-title">Acompanhe Resultados</h4>
+                        <p class="step-description">Visualize relatórios e estatísticas que contribuem para a melhoria institucional.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact-section py-5 bg-light" id="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="card contact-card">
+                        <div class="card-body">
+                            <h2 class="section-title text-center mb-4">Entre em Contato</h2>
+                            <p class="text-center mb-4">Precisa de ajuda ou tem alguma dúvida sobre o sistema de avaliação?</p>
+                            <div class="contact-info">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-envelope-fill me-3"></i>
+                                    <span>suporte.avaliacao@anhembi.br</span>
+                                </div>
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-telephone-fill me-3"></i>
+                                    <span>(15) 3333-4444</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-geo-alt-fill me-3"></i>
+                                    <span>Av. das Universidades, 1000 - Sorocaba/SP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
+
+<style>
+    /* Estilos específicos para a página Home */
+    .home-container {
+        margin-top: -2rem;
+    }
+
+    /* Seção Hero */
+    .hero-section {
+        background: linear-gradient(135deg, var(--anhembi-primary) 0%, var(--anhembi-secondary) 100%);
+        color: white;
+        padding: 4rem 0;
+        border-radius: 0 0 50px 50px;
+        margin-bottom: 2rem;
+    }
+
+    .hero-title {
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+        opacity: 0.9;
+    }
+
+    .hero-image {
+        transform: perspective(1000px) rotateY(-5deg);
+        transition: transform 0.5s ease;
+    }
+
+        .hero-image:hover {
+            transform: perspective(1000px) rotateY(0deg);
+        }
+
+    /* Seção de Acesso Rápido */
+    .section-title {
+        color: var(--anhembi-secondary);
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+
+    .action-card {
+        transition: all 0.3s ease;
+        border: none;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+
+        .action-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+    .icon-wrapper {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: rgba(46, 139, 87, 0.1);
+        margin-bottom: 1rem;
+    }
+
+        .icon-wrapper i {
+            font-size: 30px;
+            color: var(--anhembi-primary);
+        }
+
+    /* Seção Sobre */
+    .about-image {
+        border-radius: 15px;
+    }
+
+    .stat-box {
+        text-align: center;
+    }
+
+    .stat-number {
+        color: var(--anhembi-primary);
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .stat-label {
+        font-size: 0.9rem;
+        color: #666;
+    }
+
+    /* Como Funciona */
+    .step-card {
+        background-color: white;
+        border-radius: 15px;
+        padding: 2rem 1.5rem;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        position: relative;
+        height: 100%;
+    }
+
+    .step-number {
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--anhembi-primary);
+        color: white;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+
+    .step-icon {
+        font-size: 2.5rem;
+        color: var(--anhembi-secondary);
+        margin-bottom: 1rem;
+    }
+
+    .step-title {
+        font-size: 1.2rem;
+        color: var(--anhembi-dark);
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+    }
+
+    /* Seção de Contato */
+    .contact-card {
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+    }
+
+    .contact-info {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+        .contact-info i {
+            color: var(--anhembi-primary);
+            font-size: 1.2rem;
+        }
+
+    /* Responsividade */
+    @@media (max-width: 768px) {
+        .hero-section
+
+    {
+        padding: 3rem 0;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-image {
+        max-width: 80%;
+        margin: 2rem auto 0;
+    }
+
+    .stat-box {
+        margin-bottom: 1.5rem;
+    }
+
+    }
+</style>

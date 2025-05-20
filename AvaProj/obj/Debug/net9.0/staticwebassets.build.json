@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tXTuaJyiesPDaya9mFniTqLnp0D0nzPfB5/M+rIW8gM=",
+  "Hash": "uiRuU8qOdRe+PUtAZAZVYlT4WIqunGjqTW647caUrZM=",
   "Source": "AvaProj",
   "BasePath": "_content/AvaProj",
   "Mode": "Default",
@@ -1298,12 +1298,12 @@
       "OriginalItemSpec": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\obj\\Debug\\net9.0\\compressed\\z7j3dtddgl-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\obj\\Debug\\net9.0\\compressed\\z7j3dtddgl-eiqfznsfok.gz",
       "SourceId": "AvaProj",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AvaProj",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=eiqfznsfok}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1312,8 +1312,8 @@
       "RelatedAsset": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wf4wcyqcqt",
-      "Integrity": "fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=",
+      "Fingerprint": "l9auwnfy17",
+      "Integrity": "edtRLFpRWwofN0sekKNC9oujZ2VwerSwnDclEupb/Eo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "eiqfznsfok",
+      "Integrity": "9nKEFiQz9E4JFxf6FJFGlcYi4cY5nxzXEE005BSHKJM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -3324,13 +3324,13 @@
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\obj\\Debug\\net9.0\\compressed\\z7j3dtddgl-b9sayid5wm.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\obj\\Debug\\net9.0\\compressed\\z7j3dtddgl-eiqfznsfok.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.002403846154"
         }
       ],
       "ResponseHeaders": [
@@ -3340,19 +3340,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "415"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"edtRLFpRWwofN0sekKNC9oujZ2VwerSwnDclEupb/Eo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 May 2025 22:11:54 GMT"
+          "Value": "Mon, 19 May 2025 23:28:40 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -3368,26 +3368,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"9nKEFiQz9E4JFxf6FJFGlcYi4cY5nxzXEE005BSHKJM=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "b9sayid5wm"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-9nKEFiQz9E4JFxf6FJFGlcYi4cY5nxzXEE005BSHKJM="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3397,7 +3389,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "945"
         },
         {
           "Name": "Content-Type",
@@ -3405,11 +3397,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"9nKEFiQz9E4JFxf6FJFGlcYi4cY5nxzXEE005BSHKJM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 May 2025 22:11:54 GMT"
+          "Value": "Mon, 19 May 2025 23:28:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9nKEFiQz9E4JFxf6FJFGlcYi4cY5nxzXEE005BSHKJM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\obj\\Debug\\net9.0\\compressed\\z7j3dtddgl-eiqfznsfok.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"edtRLFpRWwofN0sekKNC9oujZ2VwerSwnDclEupb/Eo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 23:28:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-edtRLFpRWwofN0sekKNC9oujZ2VwerSwnDclEupb/Eo="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.eiqfznsfok.css",
+      "AssetFile": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\obj\\Debug\\net9.0\\compressed\\z7j3dtddgl-eiqfznsfok.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002403846154"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "415"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"edtRLFpRWwofN0sekKNC9oujZ2VwerSwnDclEupb/Eo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 23:28:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9nKEFiQz9E4JFxf6FJFGlcYi4cY5nxzXEE005BSHKJM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eiqfznsfok"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9nKEFiQz9E4JFxf6FJFGlcYi4cY5nxzXEE005BSHKJM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.eiqfznsfok.css",
+      "AssetFile": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "945"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9nKEFiQz9E4JFxf6FJFGlcYi4cY5nxzXEE005BSHKJM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 23:28:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3419,7 +3556,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "eiqfznsfok"
         },
         {
           "Name": "label",
@@ -3427,13 +3564,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-9nKEFiQz9E4JFxf6FJFGlcYi4cY5nxzXEE005BSHKJM="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\obj\\Debug\\net9.0\\compressed\\z7j3dtddgl-b9sayid5wm.gz",
+      "Route": "css/site.eiqfznsfok.css.gz",
+      "AssetFile": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\obj\\Debug\\net9.0\\compressed\\z7j3dtddgl-eiqfznsfok.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3442,7 +3579,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "415"
         },
         {
           "Name": "Content-Type",
@@ -3450,11 +3587,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"edtRLFpRWwofN0sekKNC9oujZ2VwerSwnDclEupb/Eo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 May 2025 22:11:54 GMT"
+          "Value": "Mon, 19 May 2025 23:28:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3472,7 +3609,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "eiqfznsfok"
         },
         {
           "Name": "label",
@@ -3480,144 +3617,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\obj\\Debug\\net9.0\\compressed\\z7j3dtddgl-b9sayid5wm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003125000000"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "319"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 15 May 2025 22:11:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "667"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 15 May 2025 22:11:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\obj\\Debug\\net9.0\\compressed\\z7j3dtddgl-b9sayid5wm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "319"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 15 May 2025 22:11:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-edtRLFpRWwofN0sekKNC9oujZ2VwerSwnDclEupb/Eo="
         }
       ]
     },

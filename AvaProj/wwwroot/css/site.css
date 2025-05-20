@@ -1,5 +1,7 @@
 html {
   font-size: 14px;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 @media (min-width: 768px) {
@@ -18,7 +20,22 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  flex: 1 0 auto;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {

@@ -1015,7 +1015,6 @@ C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\AvaProj\AVA_Project\AvaP
 C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\AvaProj\AVA_Project\AvaProj\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\AvaProj\AVA_Project\AvaProj\obj\Debug\net9.0\scopedcss\bundle\AvaProj.styles.css
 C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\AvaProj\AVA_Project\AvaProj\obj\Debug\net9.0\scopedcss\projectbundle\AvaProj.bundle.scp.css
-C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\AvaProj\AVA_Project\AvaProj\obj\Debug\net9.0\compressed\z7j3dtddgl-b9sayid5wm.gz
 C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\AvaProj\AVA_Project\AvaProj\obj\Debug\net9.0\compressed\l5kh0ovvuf-61n19gt1b8.gz
 C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\AvaProj\AVA_Project\AvaProj\obj\Debug\net9.0\compressed\ie5uet8d55-xtxxf3hu2r.gz
 C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\AvaProj\AVA_Project\AvaProj\obj\Debug\net9.0\compressed\j88z575pvg-t1cqhe9u97.gz
@@ -1095,3 +1094,4 @@ C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\AvaProj\AVA_Project\AvaP
 C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\AvaProj\AVA_Project\AvaProj\obj\Debug\net9.0\AvaProj.pdb
 C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\AvaProj\AVA_Project\AvaProj\obj\Debug\net9.0\AvaProj.genruntimeconfig.cache
 C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\AvaProj\AVA_Project\AvaProj\obj\Debug\net9.0\ref\AvaProj.dll
+C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\AvaProj\AVA_Project\AvaProj\obj\Debug\net9.0\compressed\z7j3dtddgl-eiqfznsfok.gz

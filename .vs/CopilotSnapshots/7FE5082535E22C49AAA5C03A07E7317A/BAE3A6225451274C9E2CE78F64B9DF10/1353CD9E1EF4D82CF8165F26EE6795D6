@@ -1,0 +1,714 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Anhembi Morumbi</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AvaProj.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        :root {
+            --anhembi-primary: #2E8B57; /* Verde escuro principal */
+            --anhembi-secondary: #3CB371; /* Verde médio secundário */
+            --anhembi-tertiary: #66CDAA; /* Verde claro terciário */
+            --anhembi-accent: #FFD700; /* Dourado para destaques */
+            --anhembi-light: #F5F5F5; /* Cinza muito claro para fundos */
+            --anhembi-dark: #004d00; /* Verde muito escuro */
+            --anhembi-text: #333333; /* Cinza escuro para textos */
+            --anhembi-grey: #6c757d; /* Cinza médio para elementos secundários */
+            --anhembi-light-grey: #e9ecef; /* Cinza claro para bordas e separadores */
+            --anhembi-danger: #dc3545; /* Vermelho para alertas */
+            /* Espaçamentos consistentes */
+            --spacing-xs: 0.25rem;
+            --spacing-sm: 0.5rem;
+            --spacing-md: 1rem;
+            --spacing-lg: 1.5rem;
+            --spacing-xl: 2rem;
+            /* Arredondamentos */
+            --border-radius-sm: 0.25rem;
+            --border-radius-md: 0.375rem;
+            --border-radius-lg: 0.5rem;
+            /* Sombras */
+            --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+            --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Estilos globais */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--anhembi-light);
+            color: var(--anhembi-text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Transições suaves */
+        a, button, .nav-link, .dropdown-item {
+            transition: all 0.3s ease;
+        }
+
+        /* Cabeçalho e navegação */
+        header {
+            box-shadow: var(--shadow-sm);
+        }
+
+        .navbar {
+            background-color: white !important;
+            border-bottom: 4px solid var(--anhembi-primary) !important;
+            padding: var(--spacing-md) var(--spacing-lg);
+        }
+
+        .navbar-brand {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+            padding: 0;
+        }
+
+        .brand-title {
+            color: var(--anhembi-primary) !important;
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin: 0;
+            letter-spacing: -0.5px;
+        }
+
+        .brand-subtitle {
+            color: var(--anhembi-secondary);
+            font-size: 1rem;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        .nav-link {
+            color: var(--anhembi-secondary) !important;
+            font-weight: 500;
+            padding: var(--spacing-sm) var(--spacing-md);
+            border-radius: var(--border-radius-sm);
+        }
+
+            .nav-link:hover, .nav-link:focus {
+                color: var(--anhembi-primary) !important;
+                background-color: rgba(46, 139, 87, 0.05);
+            }
+
+            .nav-link.active {
+                color: white !important;
+                background-color: var(--anhembi-primary);
+            }
+
+        .nav-item {
+            margin: 0 var(--spacing-xs);
+        }
+
+        /* Menu de navegação */
+        .navbar-toggler {
+            border-color: var(--anhembi-light-grey);
+            padding: var(--spacing-xs) var(--spacing-sm);
+        }
+
+            .navbar-toggler:focus {
+                box-shadow: 0 0 0 0.2rem rgba(46, 139, 87, 0.25);
+            }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(46, 139, 87, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+
+        /* Menu dropdown */
+        .dropdown-menu {
+            border-radius: var(--border-radius-md);
+            border: 1px solid var(--anhembi-light-grey);
+            box-shadow: var(--shadow-md);
+            padding: var(--spacing-xs) 0;
+            min-width: 200px;
+        }
+
+        .dropdown-item {
+            color: var(--anhembi-text);
+            padding: var(--spacing-sm) var(--spacing-lg);
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+        }
+
+            .dropdown-item i {
+                margin-right: var(--spacing-sm);
+                color: var(--anhembi-secondary);
+                font-size: 1.1rem;
+            }
+
+            .dropdown-item:hover, .dropdown-item:focus {
+                color: white;
+                background-color: var(--anhembi-primary);
+            }
+
+                .dropdown-item:hover i, .dropdown-item:focus i {
+                    color: white;
+                }
+
+            .dropdown-item.text-danger {
+                color: var(--anhembi-danger) !important;
+            }
+
+                .dropdown-item.text-danger:hover, .dropdown-item.text-danger:focus {
+                    color: white !important;
+                    background-color: var(--anhembi-danger);
+                }
+
+                .dropdown-item.text-danger i {
+                    color: var(--anhembi-danger);
+                }
+
+                .dropdown-item.text-danger:hover i, .dropdown-item.text-danger:focus i {
+                    color: white;
+                }
+
+        .dropdown-divider {
+            margin: var(--spacing-xs) 0;
+            border-top: 1px solid var(--anhembi-light-grey);
+        }
+
+        /* Menu dropdown do usuário */
+        .user-menu {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-avatar {
+            width: 32px;
+            height: 32px;
+            background-color: var(--anhembi-tertiary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: var(--spacing-xs);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        /* Menu de navegação principal */
+        .main-menu .dropdown-toggle {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-xs);
+        }
+
+        /* Botões */
+        .btn {
+            font-weight: 500;
+            padding: var(--spacing-sm) var(--spacing-lg);
+            border-radius: var(--border-radius-md);
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background-color: var(--anhembi-primary);
+            border-color: var(--anhembi-primary);
+        }
+
+            .btn-primary:hover, .btn-primary:focus {
+                background-color: var(--anhembi-dark);
+                border-color: var(--anhembi-dark);
+                transform: translateY(-1px);
+                box-shadow: var(--shadow-sm);
+            }
+
+        .btn-secondary {
+            background-color: var(--anhembi-secondary);
+            border-color: var(--anhembi-secondary);
+            color: white;
+        }
+
+            .btn-secondary:hover, .btn-secondary:focus {
+                background-color: var(--anhembi-tertiary);
+                border-color: var(--anhembi-tertiary);
+                transform: translateY(-1px);
+                box-shadow: var(--shadow-sm);
+            }
+
+        .btn-outline-primary {
+            color: var(--anhembi-primary);
+            border-color: var(--anhembi-primary);
+        }
+
+            .btn-outline-primary:hover, .btn-outline-primary:focus {
+                background-color: var(--anhembi-primary);
+                color: white;
+                transform: translateY(-1px);
+                box-shadow: var(--shadow-sm);
+            }
+
+        .btn-link {
+            color: var(--anhembi-primary);
+            text-decoration: none;
+            padding: var(--spacing-xs) var(--spacing-sm);
+        }
+
+            .btn-link:hover, .btn-link:focus {
+                color: var(--anhembi-dark);
+                text-decoration: underline;
+            }
+
+        /* Container principal */
+        .container {
+            flex: 1;
+            padding: var(--spacing-xl) var(--spacing-lg);
+            max-width: 1200px;
+        }
+
+        /* Tipografia */
+        h1, h2, h3, h4, h5, h6 {
+            color: var(--anhembi-primary);
+            font-weight: 600;
+            margin-bottom: var(--spacing-md);
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: var(--spacing-lg);
+        }
+
+        h2 {
+            font-size: 1.75rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            font-size: 1.25rem;
+        }
+
+        a {
+            color: var(--anhembi-primary);
+            text-decoration: none;
+        }
+
+            a:hover, a:focus {
+                color: var(--anhembi-dark);
+                text-decoration: underline;
+            }
+
+        /* Cartões e seções */
+        .card {
+            border-radius: var(--border-radius-lg);
+            border: 1px solid var(--anhembi-light-grey);
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+
+            .card:hover {
+                box-shadow: var(--shadow-md);
+                transform: translateY(-2px);
+            }
+
+        .card-header {
+            background-color: white;
+            border-bottom: 1px solid var(--anhembi-light-grey);
+            padding: var(--spacing-md) var(--spacing-lg);
+        }
+
+        .card-body {
+            padding: var(--spacing-lg);
+        }
+
+        .card-footer {
+            background-color: white;
+            border-top: 1px solid var(--anhembi-light-grey);
+            padding: var(--spacing-md) var(--spacing-lg);
+        }
+
+        /* Badges */
+        .badge {
+            font-weight: 500;
+            padding: var(--spacing-xs) var(--spacing-sm);
+            border-radius: var(--border-radius-sm);
+        }
+
+        .badge-primary {
+            background-color: var(--anhembi-primary);
+            color: white;
+        }
+
+        .badge-secondary {
+            background-color: var(--anhembi-secondary);
+            color: white;
+        }
+
+        /* Alertas */
+        .alert {
+            border-radius: var(--border-radius-md);
+            padding: var(--spacing-md) var(--spacing-lg);
+            border: none;
+            margin-bottom: var(--spacing-lg);
+        }
+
+        /* Formulários */
+        .form-control {
+            border-radius: var(--border-radius-md);
+            padding: var(--spacing-sm) var(--spacing-md);
+            border: 1px solid var(--anhembi-light-grey);
+        }
+
+            .form-control:focus {
+                border-color: var(--anhembi-secondary);
+                box-shadow: 0 0 0 0.25rem rgba(46, 139, 87, 0.25);
+            }
+
+        .form-label {
+            font-weight: 500;
+            color: var(--anhembi-text);
+            margin-bottom: var(--spacing-xs);
+        }
+
+        /* Rodapé */
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            white-space: nowrap;
+            line-height: 60px;
+            background-color: var(--anhembi-secondary) !important;
+            color: white !important;
+            border-top: none !important;
+        }
+
+            footer .container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 var(--spacing-lg);
+            }
+
+            footer a {
+                color: white !important;
+                text-decoration: none;
+            }
+
+                footer a:hover, footer a:focus {
+                    color: var(--anhembi-light) !important;
+                    text-decoration: underline;
+                }
+
+        .footer-links {
+            display: flex;
+            gap: var(--spacing-lg);
+        }
+
+        .copyright {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+        }
+
+        /* Utilitários */
+        .text-primary {
+            color: var(--anhembi-primary) !important;
+        }
+
+        .text-secondary {
+            color: var(--anhembi-secondary) !important;
+        }
+
+        .bg-primary {
+            background-color: var(--anhembi-primary) !important;
+        }
+
+        .bg-secondary {
+            background-color: var(--anhembi-secondary) !important;
+        }
+
+        .border-primary {
+            border-color: var(--anhembi-primary) !important;
+        }
+
+        /* Responsividade */
+        @@media (max-width: 992px) {
+            .container
+
+        {
+            padding: var(--spacing-lg) var(--spacing-md);
+        }
+
+        h1 {
+            font-size: 1.75rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        }
+
+        @@media (max-width: 768px) {
+            .navbar
+
+        {
+            padding: var(--spacing-sm) var(--spacing-md);
+        }
+
+        .brand-title {
+            font-size: 1.25rem;
+        }
+
+        .brand-subtitle {
+            font-size: 0.875rem;
+        }
+
+        .container {
+            padding: var(--spacing-md);
+        }
+
+        footer .container {
+            flex-direction: column;
+            gap: var(--spacing-sm);
+            text-align: center;
+        }
+
+        .footer-links {
+            flex-direction: column;
+            gap: var(--spacing-xs);
+        }
+
+        }
+
+        @@media (max-width: 576px) {
+            .navbar-brand
+
+        {
+            max-width: 200px;
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .card-body {
+            padding: var(--spacing-md);
+        }
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <!-- Logo e título -->
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <h1 class="brand-title">ANHEMBI MORUMBI</h1>
+                    <h2 class="brand-subtitle">Sorocaba</h2>
+                </a>
+
+                <!-- Botão de menu para mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu de navegação -->
+                <div class="navbar-collapse collapse d-lg-flex justify-content-end">
+                    <ul class="navbar-nav">
+                        <!-- Links rápidos de navegação (visíveis apenas em telas maiores) -->
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
+                                <i class="bi bi-house-door"></i> Home
+                            </a>
+                        </li>
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <!-- Menu do usuário logado -->
+                            <li class="nav-item dropdown main-menu">
+                                <a class="nav-link dropdown-toggle user-menu" href="#" id="userDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="user-avatar">
+                                        <i class="bi bi-person"></i>
+                                    </div>
+                                    <span class="d-none d-md-inline">Minha Conta</span>
+                                    <i class="bi bi-chevron-down ms-1"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                    <li>
+                                        <div class="dropdown-item disabled">
+                                            <i class="bi bi-person-circle"></i>
+                                            <span>Olá, @User.Identity.Name</span>
+                                        </div>
+                                    </li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Index">
+                                            <i class="bi bi-house-door"></i> Home
+                                        </a>
+                                    </li>
+
+                                    <!-- Verificação de perfil e exibição de menus específicos -->
+                                    @if (User.IsInRole("Professor"))
+                                    {
+                                        <li>
+                                            <a class="dropdown-item" asp-area="" asp-controller="Dashboard" asp-action="Index">
+                                                <i class="bi bi-speedometer2"></i> Dashboard
+                                            </a>
+                                        </li>
+                                    }
+
+                                    @if (User.IsInRole("Administrador"))
+                                    {
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li>
+                                            <div class="dropdown-item disabled">
+                                                <i class="bi bi-gear-fill"></i>
+                                                <span>Administração</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-area="" asp-controller="Disciplina" asp-action="Index">
+                                                <i class="bi bi-journal-text"></i> Disciplinas
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-area="" asp-controller="DisciplinaOfertada" asp-action="Index">
+                                                <i class="bi bi-calendar-check"></i> Disciplinas Ofertadas
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-area="" asp-controller="Matricula" asp-action="Index">
+                                                <i class="bi bi-person-plus"></i> Matrículas
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-area="" asp-controller="Professor" asp-action="Index">
+                                                <i class="bi bi-mortarboard"></i> Professores
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" asp-area="" asp-controller="Account" asp-action="Register">
+                                                <i class="bi bi-person-add"></i> Registrar Usuário
+                                            </a>
+                                        </li>
+                                    }
+
+                                    @if (User.IsInRole("Aluno"))
+                                    {
+                                        <li>
+                                            <a class="dropdown-item" asp-area="" asp-controller="Avaliacao" asp-action="Index">
+                                                <i class="bi bi-card-checklist"></i> Avaliações
+                                            </a>
+                                        </li>
+                                    }
+
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Privacy">
+                                            <i class="bi bi-shield-lock"></i> Privacidade
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-danger" asp-area="" asp-controller="Account" asp-action="Logout">
+                                            <i class="bi bi-box-arrow-right"></i> Sair
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                        else
+                        {
+                            <!-- Menu para usuários não logados -->
+                            <li class="nav-item dropdown main-menu">
+                                <a class="nav-link dropdown-toggle" href="#" id="guestDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-list"></i> Menu
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="guestDropdown">
+                                    <li>
+                                        <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Index">
+                                            <i class="bi bi-house-door"></i> Home
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="Privacy">
+                                            <i class="bi bi-shield-lock"></i> Privacidade
+                                        </a>
+                                    </li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <a class="dropdown-item" asp-area="" asp-controller="Account" asp-action="Login">
+                                            <i class="bi bi-box-arrow-in-right"></i> Entrar
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                <i class="bi bi-c-circle"></i> 2025 - AvaProj | Anhembi Morumbi
+            </div>
+            <div class="footer-links">
+                <a href="#" title="Contato">
+                    <i class="bi bi-envelope"></i>
+                    <span class="d-none d-md-inline">Contato</span>
+                </a>
+                <a href="#" title="Suporte">
+                    <i class="bi bi-question-circle"></i>
+                    <span class="d-none d-md-inline">Suporte</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- Script para ajustar o comportamento responsivo -->
+    <script>
+        // Ativar tooltips do Bootstrap
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+
+        // Ajustar a altura do corpo para garantir que o footer fique no final
+        function adjustBodyHeight() {
+            const body = document.body;
+            const html = document.documentElement;
+            const footer = document.querySelector('footer');
+
+            if (footer) {
+                const footerHeight = footer.offsetHeight;
+                body.style.paddingBottom = footerHeight + 'px';
+            }
+        }
+
+        // Executar ao carregar e ao redimensionar
+        window.addEventListener('load', adjustBodyHeight);
+        window.addEventListener('resize', adjustBodyHeight);
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
