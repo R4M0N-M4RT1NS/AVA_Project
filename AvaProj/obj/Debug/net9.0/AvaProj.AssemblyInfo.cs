@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AvaProj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b80c913cbe4ceafdde7ce3ad40b8191914a853b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09aee8e7859ef7bdda2e5ace2a8cec1bb759a5bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("AvaProj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AvaProj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\AvaProj.csproj": {}
+    "C:\\Projeto_AVA\\AvaProj\\AvaProj.csproj": {}
   },
   "projects": {
-    "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\AvaProj.csproj": {
+    "C:\\Projeto_AVA\\AvaProj\\AvaProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\AvaProj.csproj",
+        "projectUniqueName": "C:\\Projeto_AVA\\AvaProj\\AvaProj.csproj",
         "projectName": "AvaProj",
-        "projectPath": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\AvaProj.csproj",
-        "packagesPath": "C:\\Users\\55159\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\55159\\OneDrive\\Área de Trabalho\\Joao\\Projetos\\AvaProj\\AVA_Project\\AvaProj\\obj\\",
+        "projectPath": "C:\\Projeto_AVA\\AvaProj\\AvaProj.csproj",
+        "packagesPath": "C:\\Users\\ramon\\.nuget\\packages\\",
+        "outputPath": "C:\\Projeto_AVA\\AvaProj\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\55159\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ramon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

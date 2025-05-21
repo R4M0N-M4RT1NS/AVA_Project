@@ -17,153 +17,153 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AvaProj
 build_property.RootNamespace = AvaProj
-build_property.ProjectDir = C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\AvaProj\AVA_Project\AvaProj\
+build_property.ProjectDir = C:\Projeto_AVA\AvaProj\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\55159\OneDrive\Área de Trabalho\Joao\Projetos\AvaProj\AVA_Project\AvaProj
+build_property.MSBuildProjectDirectory = C:\Projeto_AVA\AvaProj
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Account/Login.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Account/Register.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Avaliacao/Create.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Avaliacao/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Avaliacao/Delete.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Avaliacao/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Avaliacao/Details.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Avaliacao/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Avaliacao/Edit.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Avaliacao/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Avaliacao/Index.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Avaliacao/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXZhbGlhY2FvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Dashboard/Index.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/DisciplinaOfertada/Create.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/DisciplinaOfertada/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluYU9mZXJ0YWRhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/DisciplinaOfertada/Delete.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/DisciplinaOfertada/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluYU9mZXJ0YWRhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/DisciplinaOfertada/Details.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/DisciplinaOfertada/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluYU9mZXJ0YWRhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/DisciplinaOfertada/Edit.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/DisciplinaOfertada/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluYU9mZXJ0YWRhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/DisciplinaOfertada/Index.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/DisciplinaOfertada/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluYU9mZXJ0YWRhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Disciplina/Create.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Disciplina/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluYVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Disciplina/Delete.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Disciplina/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluYVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Disciplina/Details.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Disciplina/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluYVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Disciplina/Edit.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Disciplina/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluYVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Disciplina/Index.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Disciplina/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Home/Index.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Home/Privacy.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Matricula/Create.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Matricula/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Matricula/Delete.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Matricula/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Matricula/Details.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Matricula/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Matricula/Edit.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Matricula/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Matricula/Index.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Matricula/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0cmljdWxhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Professor/Create.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Professor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Professor/Delete.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Professor/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Professor/Details.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Professor/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Professor/Edit.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Professor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Professor/Index.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Professor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmVzc29yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Shared/Error.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/_ViewImports.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/_ViewStart.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/55159/OneDrive/Área de Trabalho/Joao/Projetos/AvaProj/AVA_Project/AvaProj/Views/Shared/_Layout.cshtml]
+[C:/Projeto_AVA/AvaProj/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-d064k3f5vy

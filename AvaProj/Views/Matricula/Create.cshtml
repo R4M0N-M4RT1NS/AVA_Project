@@ -4,9 +4,8 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1 class="mb-3">Adicionar Matrícula</h1>
 
-<h4>Matricula</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -20,13 +19,14 @@
                 <label asp-for="DisciplinaOfertadaId" class="control-label"></label>
                 <select asp-for="DisciplinaOfertadaId" class ="form-control" asp-items="ViewBag.DisciplinaOfertadaId"></select>
             </div>
+            <br/>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
-
+<br/>
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
